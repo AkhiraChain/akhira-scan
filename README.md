@@ -1,11 +1,11 @@
 # Blockchain Threat Intelligence Sharing Platform
 
-> by SlowMist Security Team & Joinsec Team
+> by AkhiraChain Security Team & Joinsec Team
 
 
 ## Introduction
 
-SlowMist Zone threat intelligence sharing platform is a tool to simulate the RPC functions of node clients such as Ethereum and EOS, used to monitor attacks against blockchain systems in global networks.
+AkhiraScan Zone threat intelligence sharing platform is a tool to simulate the RPC functions of node clients such as Ethereum and EOS, used to monitor attacks against blockchain systems in global networks.
 
 ## Instructions
 
@@ -23,7 +23,7 @@ $ git clone https://github.com/akhirachain/akhira-scan.git --recursive
 ```
 $ cd blockchain-threat-intelligence
 $ docker build --rm -t btisp-agent . //Create the container
-$ docker run -p 8545:8545 --name="btisp-agent-instance" btisp-agent --bounty 0x1234567890123456789012345678901234567800 //Create the container and specify the ethereum wallet address to receive SLOWMIST incentive.
+$ docker run -p 8545:8545 --name="btisp-agent-instance" btisp-agent --bounty 0x1234567890123456789012345678901234567800 //Create the container and specify the ethereum wallet address to receive  incentive.
 $ docker start btisp-agent-instance //Activate the container
 $ docker stop btisp-agent-instance //Stop the container
 $ docker rm btisp-agent-instance //Remove the container
