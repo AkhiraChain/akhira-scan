@@ -2,7 +2,6 @@
 
 > by SlowMist Security Team & Joinsec Team
 
-## [中文](./README.md)
 
 ## Introduction
 
